@@ -10,5 +10,5 @@ The main.cpp file is used to generate the cases file. If you would like, you can
 1. Store all 3 Files in same Directory<br>
 2. Navigate in Terminal to the Folder it is stored in<br>
 3. Type "python 2048.py" in console while the website given above is open in a window that is DIRECTLY VISIBLE on monitor.<br>
-4. Click the window of the website after you enter the above command.<br><br>
+4. Click the window of the website after you enter the above command.<br>
 5. Enjoy!<br>
