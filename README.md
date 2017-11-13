@@ -3,7 +3,7 @@ This is a bot made in python to play the game 2048<br>
 Runs off Website:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://gabrielecirulli.github.io/2048/
 
-The main.cpp file is used to generate the cases file. If you would like, you can mess around with the values 
+The GenerateCases.cpp file is used to generate the cases file. If you would like, you can mess around with the values 
   to create a better combination. It directly affects the python program.
  
  To run:<br>
