@@ -256,7 +256,7 @@ class gameBoard:
         if self.board[num/4][num%4] is None:
             return True
         return False
-    #DEFINES MOVEMENT OF BOARD TO 1,2,3,4 FOR AI
+    #DEFINES MOVEMENT OF BOARD TO 0,1,2,3 FOR AI
     def moveBoard(self, id):
         if id is 0:
             return self.shiftLeft()
@@ -448,8 +448,12 @@ def main():
     bot = AI()
     print "AI INITIALIZED"
     while bot.canMakeMove():
-        a = bot.getBestMove(2)
+        #PASS IN DEPTH TO SEARCH
+        #RETURNS VALUE 0 - 3
+        a = bot.getBestMove(4)
         bot.makeMove(a)
+        #PRINTBOARD() IS REALLY MORE OF A TOSTRING
+        #NEEDED FOR EARLIER TESTING PURPOSES
         print game.printBoard()
     print'\n'
     print "GAMEOVER"
